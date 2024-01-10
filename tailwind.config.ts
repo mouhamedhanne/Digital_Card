@@ -7,7 +7,12 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bg_button: "#1834FF",
+        hover_bg_button: "#0D21BC",
+      },
+    },
   },
   plugins: [],
 };
